@@ -4,230 +4,251 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="#eee"
-    android:weightSum="6"
     android:gravity="center"
-
+    android:weightSum="6"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_weight="1"
-        android:orientation="horizontal"
-        android:weightSum="4"
-        android:layout_height="0dp">
-        <TextView
-            android:id="@+id/tv1"
-            android:layout_width="0dp"
-            android:layout_margin="1dp"
-            android:textStyle="bold"
-            android:textSize="32dp"
-            android:textColor="#fff"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@color/colorAccent"
-            android:gravity="center"
-            android:text="这是一个方块"/>
-        <TextView
-            android:id="@+id/tv2"
-            android:layout_width="0dp"
-            android:layout_margin="1dp"
-            android:textStyle="bold"
-            android:textSize="32dp"
-            android:textColor="#fff"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@color/colorAccent"
-            android:gravity="center"
-            android:text="这是一个方块"/>
-        <TextView
-            android:id="@+id/tv3"
-            android:layout_width="0dp"
-            android:layout_margin="1dp"
-            android:textStyle="bold"
-            android:textSize="32dp"
-            android:textColor="#fff"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@color/colorAccent"
-            android:gravity="center"
-            android:text="这是一个方块"/>
-        <TextView
-            android:id="@+id/tv4"
-            android:layout_width="0dp"
-            android:layout_margin="1dp"
-            android:textStyle="bold"
-            android:textSize="32dp"
-            android:textColor="#fff"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@color/colorAccent"
-            android:gravity="center"
-            android:text="这是一个方块"/>
 
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_weight="1"
-        android:layout_height="0dp">
-        <TextView
-            android:id="@+id/tv5"
-            android:layout_width="0dp"
-            android:layout_margin="1dp"
-            android:textStyle="bold"
-            android:textSize="32dp"
-            android:textColor="#fff"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@color/colorAccent"
-            android:gravity="center"
-            android:text="这是一个方块"/>
-        <TextView
-            android:id="@+id/tv6"
-            android:layout_width="0dp"
-            android:layout_margin="1dp"
-            android:textStyle="bold"
-            android:textSize="32dp"
-            android:textColor="#fff"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@color/colorAccent"
-            android:gravity="center"
-            android:text="这是一个方块"/>
-        <TextView
-            android:id="@+id/tv7"
-            android:layout_width="0dp"
-            android:layout_margin="1dp"
-            android:textStyle="bold"
-            android:textSize="32dp"
-            android:textColor="#fff"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@color/colorAccent"
-            android:gravity="center"
-            android:text="这是一个方块"/>
-        <TextView
-            android:id="@+id/tv8"
-            android:layout_width="0dp"
-            android:layout_margin="1dp"
-            android:textStyle="bold"
-            android:textSize="32dp"
-            android:textColor="#fff"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@color/colorAccent"
-            android:gravity="center"
-            android:text="这是一个方块"/>
 
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_weight="1"
-        android:layout_height="0dp">
-        <TextView
-            android:id="@+id/tv9"
-            android:layout_width="0dp"
-            android:layout_margin="1dp"
-            android:textStyle="bold"
-            android:textSize="32dp"
-            android:textColor="#fff"
-            android:layout_height="match_parent"
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
             android:layout_weight="1"
-            android:background="@color/colorAccent"
-            android:gravity="center"
-            android:text="这是一个方块"/>
-        <TextView
-            android:id="@+id/tv10"
-            android:layout_width="0dp"
-            android:layout_margin="1dp"
-            android:textStyle="bold"
-            android:textSize="32dp"
-            android:textColor="#fff"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@color/colorAccent"
-            android:gravity="center"
-            android:text="这是一个方块"/>
-        <TextView
-            android:id="@+id/tv11"
-            android:layout_width="0dp"
-            android:layout_margin="1dp"
-            android:textStyle="bold"
-            android:textSize="32dp"
-            android:textColor="#fff"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@color/colorAccent"
-            android:gravity="center"
-            android:text="这是一个方块"/>
-        <TextView
-            android:id="@+id/tv12"
-            android:layout_width="0dp"
-            android:layout_margin="1dp"
-            android:textStyle="bold"
-            android:textSize="32dp"
-            android:textColor="#fff"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@color/colorAccent"
-            android:gravity="center"
-            android:text="这是一个方块"/>
+            android:orientation="horizontal"
+            android:weightSum="4">
 
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_weight="1"
-        android:layout_height="0dp">
-        <TextView
-            android:id="@+id/tv13"
-            android:layout_width="0dp"
-            android:layout_margin="1dp"
-            android:textStyle="bold"
-            android:textSize="32dp"
-            android:textColor="#fff"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@color/colorAccent"
-            android:gravity="center"
-            android:text="这是一个方块"/>
-        <TextView
-            android:id="@+id/tv14"
-            android:layout_width="0dp"
-            android:layout_margin="1dp"
-            android:textStyle="bold"
-            android:textSize="32dp"
-            android:textColor="#fff"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@color/colorAccent"
-            android:gravity="center"
-            android:text="这是一个方块"/>
-        <TextView
-            android:id="@+id/tv15"
-            android:layout_width="0dp"
-            android:layout_margin="1dp"
-            android:textStyle="bold"
-            android:textSize="32dp"
-            android:textColor="#fff"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@color/colorAccent"
-            android:gravity="center"
-            android:text="这是一个方块"/>
-        <TextView
-            android:id="@+id/tv16"
-            android:layout_width="0dp"
-            android:layout_margin="1dp"
-            android:textStyle="bold"
-            android:textSize="32dp"
-            android:textColor="#fff"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@color/colorAccent"
-            android:gravity="center"
-            android:text="这是一个方块"/>
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="3dp"
+                android:background="@drawable/yuanjiao"
+                android:gravity="center"
+                android:text="这是一个方块"
+                android:textColor="#fff"
+                android:textSize="32dp"
+                android:textStyle="bold" />
 
-    </LinearLayout>
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="3dp"
+                android:background="@drawable/yuanjiao"
+                android:gravity="center"
+                android:text="这是一个方块"
+                android:textColor="#fff"
+                android:textSize="32dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="3dp"
+                android:background="@drawable/yuanjiao"
+                android:gravity="center"
+                android:text="这是一个方块"
+                android:textColor="#fff"
+                android:textSize="32dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="3dp"
+                android:background="@drawable/yuanjiao"
+                android:gravity="center"
+                android:text="这是一个方块"
+                android:textColor="#fff"
+                android:textSize="32dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tv5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="3dp"
+                android:background="@drawable/yuanjiao"
+                android:gravity="center"
+                android:text="这是一个方块"
+                android:textColor="#fff"
+                android:textSize="32dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv6"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="3dp"
+                android:background="@drawable/yuanjiao"
+                android:gravity="center"
+                android:text="这是一个方块"
+                android:textColor="#fff"
+                android:textSize="32dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv7"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="3dp"
+                android:background="@drawable/yuanjiao"
+                android:gravity="center"
+                android:text="这是一个方块"
+                android:textColor="#fff"
+                android:textSize="32dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv8"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="3dp"
+                android:background="@drawable/yuanjiao"
+                android:gravity="center"
+                android:text="这是一个方块"
+                android:textColor="#fff"
+                android:textSize="32dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tv9"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="3dp"
+                android:background="@drawable/yuanjiao"
+                android:gravity="center"
+                android:text="这是一个方块"
+                android:textColor="#fff"
+                android:textSize="32dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv10"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="3dp"
+                android:background="@drawable/yuanjiao"
+                android:gravity="center"
+                android:text="这是一个方块"
+                android:textColor="#fff"
+                android:textSize="32dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv11"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/yuanjiao"
+                android:gravity="center"
+                android:text="这是一个方块"
+                android:textColor="#fff"
+                android:textSize="32dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv12"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/yuanjiao"
+                android:gravity="center"
+                android:text="这是一个方块"
+                android:textColor="#fff"
+                android:textSize="32dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv13"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/yuanjiao"
+                android:gravity="center"
+                android:text="这是一个方块"
+                android:textColor="#fff"
+                android:textSize="32dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv14"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/yuanjiao"
+                android:gravity="center"
+                android:text="这是一个方块"
+                android:textColor="#fff"
+                android:textSize="32dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv15"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/yuanjiao"
+                android:gravity="center"
+                android:text="这是一个方块"
+                android:textColor="#fff"
+                android:textSize="32dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv16"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/yuanjiao"
+                android:gravity="center"
+                android:text="这是一个方块"
+                android:textColor="#fff"
+                android:textSize="32dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
 
 </LinearLayout>
